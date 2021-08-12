@@ -1,0 +1,41 @@
+#clockContainer{
+    position: relative;
+    border: 2px solid red;
+    margin: auto;
+    height: 40vw; /*--- vw : view Port ---*/
+    width: 40vw;
+    background: url(../Images/clock.png) no-repeat;
+    background-size: 100%;
+}
+
+#hour, #minute, #second {
+    position: absolute;
+    background: black;
+    border-radius: 10px;
+}
+
+#hour{  
+    width: 2%;
+    height: 26%;
+    top: 23%;
+    left: 48.7%;
+    opacity: 0.8;
+}
+
+#minute{
+    width: 1.6%;
+    height: 28%;
+    top: 21%;
+    left: 48.9%;
+    opacity: 0.8;
+
+}
+
+#second{
+    width: 1.2%;
+    height: 35%;
+    top: 15%;
+    left: 49.22%;
+    opacity: 0.8;
+    
+}
